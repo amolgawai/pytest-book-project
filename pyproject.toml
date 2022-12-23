@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Cards"
+name = "cards"
 version = "0.1.0"
 description = "A simple CLI TODO App from the pytest book"
 authors = ["Amol Gawai <5114143+amolgawai@users.noreply.github.com>"]
@@ -7,6 +7,9 @@ license = "GplV3"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pytest-sugar = "^0.9.6"
+pytest-cov = "^4.0.0"
+coverage = "^7.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
