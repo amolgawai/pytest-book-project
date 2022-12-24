@@ -1,4 +1,4 @@
-from src.cards.cards_model import Card
+from cards.cards_model import Card
 
 
 def test_cards_member_access():
