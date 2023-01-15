@@ -11,10 +11,10 @@ def test_cards_member_access():
 
 def test_card_defaults():
     a_card = Card()
-    assert a_card.description == None
-    assert a_card.owner == None
+    assert a_card.description == ""
+    assert a_card.owner == ""
     assert a_card.status == "todo"
-    assert a_card.id == None
+    assert a_card.id == 0
 
 
 def test_equality():

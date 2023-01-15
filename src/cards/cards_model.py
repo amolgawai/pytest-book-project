@@ -6,10 +6,10 @@ from dataclasses import dataclass, field, asdict
 class Card:
     """Represents a todo cards"""
 
-    description: str = None
-    owner: str = None
+    description: str = ""
+    owner: str = ""
     status: str = "todo"
-    id: int = field(default=None, compare=False)
+    id: int = field(default=0, compare=False)
 
     @classmethod
     def from_dict(cls, a_dict: dict) -> Card:
